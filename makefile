@@ -7,7 +7,7 @@ vpath %.h inc
 
 .PRECIOUS: obj/%.o # prevent auto removal of object files
 # By default make all executables
-# to get a specific one, pass its name to make for exmple (make wc.out)
+# to get a specific one, pass its name to make (for exmple, make wc.out)
 all : ${OUTS} stat
 
 # pattern rule for making executables out of objects
